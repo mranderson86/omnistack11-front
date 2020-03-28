@@ -36,7 +36,9 @@ export default function Register() {
           uf: ""
         });
 
-        alert(`Seu ID de acesso: ${response.data.id}`);
+        alert(
+          `Por Favor, Anote seu ID.\nSeu ID de acesso: ${response.data.id}`
+        );
 
         history.push("/");
       }
